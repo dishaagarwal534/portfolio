@@ -1,0 +1,54 @@
+.certifications-container{
+  padding:60px;
+  color:#cbd5f5;
+}
+
+.certifications-title{
+  font-size:36px;
+  margin-bottom:40px;
+  color:#10aaf1;
+}
+
+/* card style */
+.cert-card{
+  background:#0f172a;
+  padding:20px 25px;
+  margin-bottom:20px;
+  border-radius:12px;
+
+  border-left:4px solid #4fc3f7;
+  transition:all 0.3s ease;
+}
+
+.cert-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+.cert-card h3{
+  color:#4fc3f7;
+  margin-bottom:5px;
+}
+
+.cert-card p{
+  color:#94a3b8;
+  margin-bottom:10px;
+}
+
+/* status badges */
+.status{
+  font-size:12px;
+  padding:5px 10px;
+  border-radius:20px;
+  font-weight:bold;
+}
+
+.status.completed{
+  background:#022c22;
+  color:#4ade80;
+}
+
+.status.progress{
+  background:#1e293b;
+  color:#facc15;
+}

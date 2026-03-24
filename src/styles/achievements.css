@@ -1,0 +1,35 @@
+.achievements-container{
+  padding:60px;
+  color:#cbd5f5;
+}
+
+.achievements-title{
+  font-size:36px;
+  margin-bottom:40px;
+  color:#10aaf1;
+}
+
+/* cards */
+.achievement-card{
+  background:#0f172a;
+  padding:25px 30px;
+  margin-bottom:20px;
+  border-radius:12px;
+
+  border-left:4px solid #4fc3f7;
+  transition:all 0.3s ease;
+}
+
+.achievement-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+.achievement-card h3{
+  color:#4fc3f7;
+  margin-bottom:10px;
+}
+
+.achievement-card p{
+  line-height:1.6;
+}

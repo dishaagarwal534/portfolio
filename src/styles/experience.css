@@ -1,0 +1,73 @@
+.experience-container{
+  padding:60px;
+  color:#cbd5f5;
+}
+
+.experience-title{
+  font-size:36px;
+  margin-bottom:40px;
+  color:#10aaf1;
+}
+
+/* each experience block becomes a card */
+.experience-item{
+  background:#0f172a;
+  padding:25px 30px;
+  margin-bottom:30px;
+  border-radius:12px;
+
+  border-left:4px solid #4fc3f7;   /* highlight line */
+  transition:all 0.3s ease;
+}
+
+/* hover effect */
+.experience-item:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* company + role */
+.experience-item h3{
+  font-size:22px;
+  margin-bottom:5px;
+  color:#e2e8f0;
+}
+
+/* date */
+.experience-date{
+  font-size:14px;
+  color:#94a3b8;
+}
+
+/* project title */
+.experience-item h4{
+  margin-top:20px;
+  margin-bottom:10px;
+  color:#4fc3f7;
+  font-size:18px;
+}
+
+/* bullet points */
+.experience-item ul{
+  padding-left:20px;
+  margin-bottom:10px;
+}
+
+.experience-item li{
+  margin-bottom:8px;
+  line-height:1.6;
+  position:relative;
+}
+
+/* custom bullet */
+.experience-item li::marker{
+  color:#4fc3f7;
+}
+
+/* tech stack */
+.tech{
+  font-size:14px;
+  color:#94a3b8;
+  margin-top:10px;
+  font-style:italic;
+}
